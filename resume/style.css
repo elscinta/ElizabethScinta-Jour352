@@ -10,6 +10,13 @@ body{
 
 /*400 is the default weight "boldness" for webpages*/
 
+strong{
+	font-size: 1.5 em;
+	text-transform: uppercase;
+	color:#33485e;
+}
+
+
 h1 {
 	font-size: 1.5 em;
 	color: #33485e;
@@ -21,7 +28,7 @@ h2{
 	font-size: 1.5 em;
 	text-transform: uppercase;
 	background-color: #33485e;
-	color: white;
+	color: #fff;
 	font-weight: 400;
 }
 
