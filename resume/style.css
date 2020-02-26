@@ -52,6 +52,8 @@ body{
 	min-width: 300px;
 }
 
+/* . = class selector */
+
 .jobtitle{
 	font-weight: 600;
 	font-size: 1.5 em;
@@ -72,13 +74,16 @@ body{
 	margin-bottom: 10px;
 }
 
+/*this is for the contact info menu*/
+
 .menu{
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
-	display: inline;
-	margin: 0 auto;
+}
 
+.menu li{
+	display: inline;
 }
 
 #degrees{
@@ -88,7 +93,9 @@ body{
 	margin-bottom: 0px;
 }
 
- #do{
+/* # = id selectors*/
+
+#do{
  	margin-top: 5px;
  	margin-bottom: 0px;
  	margin-right: 0px;
@@ -101,6 +108,7 @@ body{
 	margin:0 auto;
 	margin-bottom: 30px;
 }
+
 /*changes size for contact info, skills and education*/
 
 ul{
