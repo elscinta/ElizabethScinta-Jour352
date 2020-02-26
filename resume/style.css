@@ -7,6 +7,13 @@ body{
 	color: #444;
 }
 
+#container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 50 px;
+}
+
 /*400 is the default weight "boldness" for webpages*/
 
 strong{
@@ -16,32 +23,45 @@ strong{
 }
 
 
-h1 {
-	font-size: 1.5 em;
+#name {
+	font-size: 3em;
 	color: #33485e;
 	text-transform: uppercase;
 	text-align: center;
+	border-bottom: 1px solid #33485e;
+	width: 60%;
+	min-width: 300px;
+	margin: 0 auto;
 }
 
-h2{
+/*section headers*/
+
+.sectionheader{
 	font-size: 1.5 em;
 	text-transform: uppercase;
 	background-color: #33485e;
 	color: #fff;
+	margin-bottom: 10 px;
+	margin-top: 20 px;
+	margin-right: 0 px;
+	margin-left: 0 px;
+	width: 70%;
+	min-width: 300px;
 }
 
-h3{
+.jobtitle{
 	font-weight: 600;
 	font-size: 1.5 em;
 }
 
-h4{
-	font-size: 1.5 em;
+.organization{
+	font-size: 1.25 em;
 }
 
-h5{
+.date{
 	font-style: italic;
 	font-size:1 em;
+	margin-top: 2px;
 }
 
 /*changes size for contact info, skills and education*/
