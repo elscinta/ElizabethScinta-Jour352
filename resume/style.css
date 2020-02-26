@@ -16,10 +16,13 @@ body{
 
 /*400 is the default weight "boldness" for webpages*/
 
-strong{
-	font-size: 1.5 em;
-	text-transform: uppercase;
-	color:#33485e;
+#title{
+	font-weight: 600px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	margin-left: 0px
 }
 
 
@@ -64,6 +67,40 @@ strong{
 	margin-top: 2px;
 }
 
+.description{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menu{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline;
+	margin: 0 auto;
+
+}
+
+#degrees{
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+ #do{
+ 	margin-top: 5px;
+ 	margin-bottom: 0px;
+ 	margin-right: 0px;
+ 	margin-left: 0px;
+ }
+
+.top {
+	width: 60%;
+	min-width: 300px;
+	margin:0 auto;
+	margin-bottom: 30px;
+}
 /*changes size for contact info, skills and education*/
 
 ul{
