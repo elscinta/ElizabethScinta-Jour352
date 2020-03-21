@@ -7,9 +7,7 @@ body{
 	color: #444;
 }
 
-#container{
-	width: 100%;
-	max-width: 1200px;
+.container-fluid{
 	margin: 0 auto;
 	padding-bottom: 50 px;
 }
@@ -18,20 +16,29 @@ body{
 
 #title{
 	font-weight: 600px;
-	text-align: center;
+	text-align: left;
 	margin-top: 20px;
 	margin-bottom: 0px;
 	margin-right: 0px;
 	margin-left: 0px
 }
 
+.navbar-brand{
+	color:#8C4949
+}
 
-#name {
+.mr-3{
+	border-radius: 40%;
+}
+
+
+
+
+h3 {
 	font-size: 3em;
-	color: #33485e;
+	color: #000000;
 	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 1px solid #33485e;
 	width: 60%;
 	min-width: 300px;
 	margin: 0 auto;
@@ -40,16 +47,14 @@ body{
 /*section headers*/
 
 .sectionheader{
-	font-size: 1.5 em;
+	font-size: 1.5em;
 	text-transform: uppercase;
-	background-color: #33485e;
+	background-color: #D98686;
 	color: #fff;
 	margin-bottom: 10 px;
 	margin-top: 20 px;
 	margin-right: 0 px;
 	margin-left: 0 px;
-	width: 70%;
-	min-width: 300px;
 }
 
 /* . = class selector */
@@ -74,12 +79,16 @@ body{
 	margin-bottom: 10px;
 }
 
+
+.logo{
+	float:left;
+}
 /*this is for the contact info menu*/
 
 .menu{
 	margin: 0px;
 	padding: 0px;
-	text-align: center;
+	text-align: left;
 }
 
 .menu li{
