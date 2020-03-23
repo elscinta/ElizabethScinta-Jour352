@@ -1,0 +1,36 @@
+#content {
+ margin: 0 auto;
+ width: 900px;
+}
+
+h1{
+	font-family: helvetica, sans-serif;
+	font-size: 20pt;
+}
+
+h2{
+	font-family: helvetica, sans-serif;
+	font-size: 14pt;
+	font-style: italic; 
+}
+
+p{
+	font-family: Georgia, serif;
+	font-size: 13px;
+}
+
+figcaption {
+  display: block;
+  font-size: 12px;
+}
+
+blockquote{
+	font: 16px/24px normal helvetics, sans-serif;
+	font-style: italic;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-bottom: 5px solid #F23C2C;
+	border-top: 5px solid #F23C2C;
+}
