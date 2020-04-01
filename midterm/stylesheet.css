@@ -1,0 +1,90 @@
+#headline{
+	color:#8C0E00;
+	font-family: 'IM Fell French Canon SC', serif;
+	text-align: center;
+	font-size:3em;
+}
+
+#byline{
+	text-align: center;
+	font-family: 'IM Fell French Canon SC', serif;
+	font-size: 1em;
+}
+
+.subheading{
+	font-family: 'Barlow Condensed', sans-serif;
+	color:#590900;
+	font-size: 2em;
+}
+
+p{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+img{
+	width: 1150px;
+}
+
+.mr-3{
+	height: 335px;
+	width: 500px;
+}
+
+.card-header{
+	color:#8C0E00;
+	font-family:'IM Fell French Canon SC', serif;
+	font-size: 1em;
+	text-align: center; 
+}
+
+h5{
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #000000;
+}
+
+.card-text1{
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.card-text{
+	color: #000000;
+}
+
+.mb-0{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+/*this controls the font size for the captions of the pictures*/
+
+figcaption{
+	font-size: 11px
+}
+
+blockquote{
+	font: 16px/24px normal helvetics, sans-serif;
+	color: #8C0E00;
+	font-style: italic;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-bottom: 5px solid #000000;
+	border-top: 5px solid #000000;
+	text-align: center;
+}
+
+
+.credit{
+	font-style: italic;
+}
+
+#map1{
+	text-align: center;
+}
+
+
