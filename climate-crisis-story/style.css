@@ -87,6 +87,6 @@ a:visited{
 
 /*why isnt this working*/
 
-a: hover{
-	color:white;
+a:hover{
+	background-color: #E88958;
 }
