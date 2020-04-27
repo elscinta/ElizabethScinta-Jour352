@@ -1,8 +1,16 @@
-
-@media only screen and (max-width: 768px) {
- p {
-   font-size: .5em;
- }
+@media screen and (max-width: 768px) {
+  p{
+  	font-size: 1em;
+  }
+   .chapter {
+   		font-size:1.5em;
+   }
+	img.responsive{
+		width: 100%;
+	}
+	figcaption{
+		font-size: 1em;
+	}
 }
 
 
