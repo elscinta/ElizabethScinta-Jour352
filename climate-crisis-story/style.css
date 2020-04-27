@@ -1,0 +1,84 @@
+
+@media only screen and (max-width: 768px) {
+ p {
+   font-size: .5em;
+ }
+}
+
+
+.card{
+	margin-left: 5px;	
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.card-title{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.byline{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+}
+
+.chapter{
+	font-size: 1.5em;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+	background-color: #b53004;
+	color: white;
+}
+
+p{
+	font-family: 'IBM Plex Serif', serif;
+	line-height: 180%;
+}
+
+figcaption{
+	color: #A9A9A9;
+	margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.container{
+	font-family: georgia, serif;
+	line-height: 180%;
+}
+
+footer{
+	background-color: #B53004;
+	color: 	#FFFFFF;
+}
+
+
+blockquote{
+	text-align: center;
+	font-size: 1.75em;
+	color: #B53004;
+	font-style: italic;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	font-family: 'IBM Plex Serif', serif;
+}
+
+a:link{
+	color: #CC5006;
+}
+
+a:visited{
+	color:#822203;
+}
+
+
+/*why isnt this working*/
+
+a: hover{
+	color:white;
+}
